@@ -1,24 +1,61 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: "Roboto Condensed", sans-serif;
     max-width: 1920px;
-    border: 2px solid red;
-}
-/* Navbar section style */
-nav{
-    height: 80px;
-    display: flex;
+    /* border: 2px solid red; */
 }
 
-nav ul li{
+/* Navbar section style */
+nav {
+    /* height: 80px;
+    width: 1140px; */
+    height: 80px;
+    width: 1920px;
+    margin: 0 auto;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    background-color: #181824;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+nav ul li {
     list-style: none;
 }
 
-ul li a{
+a:hover {
+    color: #7562e0;
+}
+
+ul li a {
     text-decoration: none;
+    color: white;
+}
+
+ul {
+    margin-right: 10%;
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.name {
+    color: #7562e0;
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+li:first-child {
+    /* color: #7562e0; */
 }
