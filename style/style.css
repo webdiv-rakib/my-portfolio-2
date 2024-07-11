@@ -107,9 +107,24 @@ li:first-child {
 .btn-1{
     height: 50px;
     width: 150px;
+    background-color: #7562e0;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    font-size: 18px;
+}
+button:hover{
+    cursor: pointer;
+    color: #7562e0;
+    background-color: white;
 }
 .btn-2{
     height: 50px;
     width: 150px;
     margin-left: 10px;
+    background-color: #1a1a29;
+    border-radius: 8px;
+    border: 1px solid #7562e0;
+    color: white;
+    font-size: 18px;
 }
