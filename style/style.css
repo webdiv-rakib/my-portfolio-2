@@ -94,17 +94,17 @@ li:first-child {
     font-weight: 600;
 }
 
-.banner-name::first-letter{
+.banner-name::first-letter {
     font-size: 1.5em;
 }
 
 .banner-description {
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 16px;
+    margin-bottom: 16px; 
 }
 
-.btn-1{
+.btn-1 {
     height: 50px;
     width: 150px;
     background-color: #7562e0;
@@ -113,12 +113,14 @@ li:first-child {
     color: white;
     font-size: 18px;
 }
-button:hover{
+
+.btn-1:hover {
     cursor: pointer;
     color: #7562e0;
     background-color: white;
 }
-.btn-2{
+
+.btn-2 {
     height: 50px;
     width: 150px;
     margin-left: 10px;
@@ -128,3 +130,10 @@ button:hover{
     color: white;
     font-size: 18px;
 }
+
+.btn-2:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #1a1a29;
+    border-style: dashed; 
+} 
